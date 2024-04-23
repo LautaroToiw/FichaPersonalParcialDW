@@ -1,0 +1,80 @@
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    
+}
+
+.imagen{
+    margin-top: 4%;
+    margin-bottom: 2%;
+    width: 30rem;
+    margin-left: 3%;
+    display: flex;
+    
+}
+
+
+
+.relleno{
+    display: flex;
+    
+}
+
+.texto{
+    margin-top: 4%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    display: block;
+}
+
+p{
+    font-size: 20px;
+}
+
+.proyecto{
+    display:flex;
+}
+
+.uadelogo{
+    
+    width: 10%;
+    display: block; 
+    margin: 0 auto;
+}
+
+
+
+@media (max-width: 785px) {
+    
+    .imagen{
+        margin-left: 4%;
+    }
+
+    .texto {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .relleno {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .imagen {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .proyecto{
+        display:flex;
+        flex-direction: column;
+    }
+    .proyectocelular{
+        margin-top: -3%;
+    }
+
+    .uadelogo{
+        width: 20%;
+    }
+}
