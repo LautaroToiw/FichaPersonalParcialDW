@@ -1,64 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diseño y Desarrollo Web</title>
-    <link rel="stylesheet" href="estilo.css"> 
-    
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
 </head>
 
-
-<header style="background-color: grey;padding: 1%;">
-    <h1 class="titulo">Diseño y Desarrollo Web</h1>
-</header>
-
 <body>
-    <div class="relleno">
-        <img class="imagen" src="imagenes/yo.jpg" alt="FotoDePerfil">
-
-        <div class="texto">
-            <div style="display: flex;">
-                <h2> Nombre y Apellido: </h2>
-                <p>ㅤLautaro Toiw </p>
+    <div id="header" class="header">
+        <h1 class="titulo">Diseño y Desarrollo Web</h1>
+    </div>
+    <div class="descripcion">
+        <img src="imagenes/yo.jpg" alt="foto-perfil" class="fotodeperfil"/>
+        <div class="informacion">
+            <div class="containerRow">
+                <span class="subtitulos">Nombre y Apellido:</span>
+                <span class="answerInfo">Lautaro Toiw</span>
             </div>
-            <div style="display: flex;">
-                <h2> Carrera: </h2>
-                <p>ㅤLicenciatura en Gestión de las TI</p>
+            <div class="containerRow">
+                <span class="subtitulos">Carrera:</span>
+                <span class="answerInfo">Licenciatura en gestión de tecnología de la información</span>
             </div>
-            <div style="display: flex;">
-                <h2> Curso: </h2>
-                <p>ㅤB101</p>
+            <div class="containerRow">
+                <span class="subtitulos">Curso:</span>
+                <span class="answerInfo">465129</span>
             </div>
-            <div style="display: flex;">
-                <h2> Proyecto: </h2>
-                <p>ㅤSitio profesional: terapia holística</p>
+            <div class="containerRow">
+                <span class="subtitulos">Proyecto:</span>
+                <span class="answerInfo">Sitio profesional de Terapeuta Holística</span>
             </div>
-            <div class="proyecto">
-                <h2> Descripción: </h2>
-                <p class="proyectocelular">ㅤServicio de terapia holística para mi madre</p>
+            <div class="containerRow">
+                <span class="subtitulos">Descripción:</span>
+                <span class="answerInfo">Pagina web sobre servicios de Terapia holística</span>
             </div>
-            <div class="proyecto">
-                <h2> Prototipo: </h2>
-                <p><a href="https://www.figma.com/file/MnquHJQOhz71EGYGnL2xqN/Sitio-Profesional?type=design&node-id=16%3A103&mode=design&t=pltogmruAuZO4TSq-1">https://www.figma.com/file/MnquHJQOhz71EGYGnL2xqN/Sitio-Profesional?type=design&node-id=16%3A103&mode=design&t=pltogmruAuZO4TSq-1</a></p>
+            <div class="containerRow">
+                <span class="subtitulos">Prototipo:</span>
+                <span class="answerInfo"><a href="https://www.figma.com/design/MnquHJQOhz71EGYGnL2xqN/Sitio-Profesional?node-id=16-103&t=tGpaNzGbNKn0a3E1-1" target="_blank">Figma</a></span>
             </div>
-            <div class="proyecto">
-                <h2> Sitio: </h2>
-                <p><a href="https://lautarotoiw.github.io/SitioProfesionalParcial/">https://lautarotoiw.github.io/SitioProfesionalParcial/</a></p>
+            <div class="containerRow">
+                <span class="subtitulos">Sitio:</span>
+                <span class="answerInfo"><a href="https://lautarotoiw.github.io/SitioProfesionalResponsive/" target="_blank">Terapeuta Holística</a></span>
             </div>
-            <div class="proyecto">
-                <h2> Repositorio: </h2>
-                <p><a href="https://github.com/LautaroToiw/SitioProfesionalParcial.git">https://github.com/LautaroToiw/SitioProfesionalParcial.git</a></p>
+            <div class="containerRow">
+                <span class="subtitulos">Repositorio:</span>
+                <span class="answerInfo"><a href="https://github.com/LautaroToiw/SitioProfesionalResponsive" target="_blank">Github</a></span>
             </div>
-
         </div>
     </div>
 
-<footer style="background-color: grey;">
-    <img src="imagenes/uade_una_gran_universidad.png" alt="uadelogo" class="uadelogo">
-</footer>
     
 </body>
 
+<footer>
+    <div id="footer" class="footerContainer">
+        <img src="imagenes/uade_una_gran_universidad.png" alt="Uade" class="footerUade"/>
+    </div>
+</footer>
+
+</html>
 
 
