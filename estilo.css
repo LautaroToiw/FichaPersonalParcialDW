@@ -1,80 +1,104 @@
-.titulo{
+body {
+    margin: 0;
+    font-family: "poppins";
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    margin: 0;
+}
+
+body a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 0;
+    background-color: #F5F5F5;
+    margin-bottom: 30px;
+    position: sticky !important;
+    top: 0;
+    z-index: 99;
+}
+
+.titulo {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.fotodeperfil {
+    width: 400px;
+    border-radius: 16px;
+}
+
+.subtitulos {
+    font-weight: 700;
+    font-family: "poppins";
+
+}
+
+.descripcion {
+    display: flex;
+    justify-content: left;
+    height: 100%;
+    column-gap: 80px;
+    padding: 147px 80px;
+    min-height: 100%;
+    margin: auto 0;
+}
+
+.informacion {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer{
+    background-color: #F5F5F5;
+
+}
+.footerContainer {
+    
+    padding: 8px 40px ;
+    font-family: "poppins";
     display: flex;
     justify-content: center;
-    font-size: 5rem;
-    
 }
-
-.imagen{
-    margin-top: 4%;
-    margin-bottom: 2%;
-    width: 30rem;
-    margin-left: 3%;
-    display: flex;
-    
+.footerUade{
+    height: 50px;
 }
-
-
-
-.relleno{
-    display: flex;
-    
-}
-
-.texto{
-    margin-top: 4%;
-    margin-bottom: 2%;
-    margin-left: 1%;
-    display: block;
-}
-
-p{
-    font-size: 20px;
-}
-
-.proyecto{
-    display:flex;
-}
-
-.uadelogo{
-    
-    width: 10%;
-    display: block; 
-    margin: 0 auto;
-}
-
-
-
-@media (max-width: 785px) {
-    
-    .imagen{
-        margin-left: 4%;
-    }
-
-    .texto {
-        display: flex;
+@media (max-width:1024px) {
+    .descripcion{
         flex-direction: column;
-        
+        justify-content: unset;
+        row-gap: 8px;
+        padding: 20px 30px;
     }
-    .relleno {
-        display: flex;
-        flex-direction: column;
-        
+    .informacion {
+        row-gap: 8px;
     }
-    .imagen {
-        display: flex;
-        flex-direction: column;
-        
-    }
-    .proyecto{
-        display:flex;
-        flex-direction: column;
-    }
-    .proyectocelular{
-        margin-top: -3%;
-    }
+}
 
-    .uadelogo{
-        width: 20%;
+@media (max-width:450px) {
+    .fotodeperfil{
+        width: 90%;
     }
 }
